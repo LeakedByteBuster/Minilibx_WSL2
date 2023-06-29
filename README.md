@@ -1,4 +1,15 @@
 # Minilibx_WSL2
+# NOTES : 
+    -L: Specifies the directory where the compiler should search for libraries.
+        Example: -Lmlx_linux directs the compiler to search for libraries in the "mlx_linux" directory.
+
+    -l: Specifies the name of a library that the compiler should link against.
+        Example: -lmlx_Linux instructs the compiler to link against the library named "mlx_Linux".
+         [ it expects the name without the lib prefix and the file extension. ]
+
+    -I: Specifies an additional directory where the compiler should search for header files.
+        Example: -Imlx_linux tells the compiler to search for header files in the "mlx_linux" directory.
+        
 ## Requirements
 Let's start...
 ```
